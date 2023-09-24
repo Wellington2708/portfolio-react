@@ -1,6 +1,6 @@
 function Projects() {
     return (
-        <section id="projetos" class="carrossel__projetos">
+        <section id="projects" class="carrossel__projetos">
 
             <div>
                 <h2 class="projetos">Projects</h2>

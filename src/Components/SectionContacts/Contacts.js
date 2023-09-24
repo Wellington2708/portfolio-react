@@ -1,6 +1,6 @@
 function Contacts(){
     return (
-    <section id="contatos" class="contatos">
+    <section id="contacts" class="contatos">
        
         <h2 class="titulo__contatos">Contatos:</h2>
         <div class="contatos">

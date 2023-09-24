@@ -1,22 +1,23 @@
-import styles from './Header.module.css' ;
+import styles from './Header.module.css';
+import logo from './logo.png';
 
-function Header(){
-    const logoWellington = require('./logo2.png');
+function Header() {
+
+    const alt = "logo Wellington Junior Developer Front-End"
 
     return (
-    <header className={styles.cabecalho}>
-            <h1><img src={logoWellington} alt="logo Wellington Junior Developer Front-End" className={styles.cabecalho__logo}/></h1>
-            <nav className={styles.cabecalho__navegacao}>
-                <ul className={styles.cabecalho__lista}>
-                    <li><a href="#sobreMim" className={styles.cabecalho__lista__item}>About me</a></li>
-                    <li><a href="#habilidades" className={styles.cabecalho__lista__item}>Skills</a></li>
-                    <li><a href="#graduacao" className={styles.cabecalho__lista__item}>Graduation</a></li>
-                    <li><a href="#projetos" className={styles.cabecalho__lista__item}>Projects</a></li>
-                    <li><a href="#contatos" className={styles.cabecalho__lista__item}>Contacts</a></li>
+        <header className={styles.header}>
+            <h1><img src={logo} alt={alt} className={styles.header__logo} /></h1>
+            <nav className={styles.header__list}>
+                <li><a href="#aboutMe" className={styles.header__list__item}>About me</a></li>
+                <li><a href="#skills" className={styles.header__list__item}>Skills</a></li>
+                <li><a href="#graduation" className={styles.header__list__item}>Graduation</a></li>
+                <li><a href="#projects" className={styles.header__list__item}>Projects</a></li>
+                <li><a href="#contacts" className={styles.header__list__item}>Contacts</a></li>
 
-                </ul>
             </nav>
-    </header>
+
+        </header>
     );
 }
 

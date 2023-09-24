@@ -1,8 +1,10 @@
 function Skills(){
     return(
-        <div className="certificates">
-            <h1>Aqui vai os certificados</h1>
-        </div>
+        <section id="skills">
+            <div className="certificates">
+                <h1>CERTIFICADOS ALURA</h1>
+            </div>
+        </section>
        
     )
 }

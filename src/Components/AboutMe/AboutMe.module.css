@@ -1,15 +1,23 @@
 
 /* Section about me */
+section {
+    padding: 0;
+    margin: 0;
+}
+
+
 
 .apresentacao {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 3em 0 0 0;
 }
 
 .imagem__castelo {
     width: 35vw;
+    height: 35vw;
     box-shadow: 10px 10px 10px 0 #0f0f0f;
 }
 
@@ -37,7 +45,32 @@
 }
 
 
-@media (max-width: 768px) {
+/* Text About me  */
+
+.fechar {
+    color: var(--color-principal);
+    text-transform: uppercase;
+    border-color: var(--borda-itens);
+    border-width: 3px;
+    display:flex;
+}
+
+.fechar:hover {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: var(--borda-itens);
+}
+
+.fechar__botao {
+    position: absolut;
+}
+
+.texto__quem-sou{
+    color: var(--textos);
+}
+
+
+@media (max-width: 854px) {
 
     .cabecalho {
         display: flex;
@@ -70,17 +103,10 @@
     }
 
     .apresentacao__imagem img {
-        width: 100%;
+
+        text-align: center;
         height: auto;
-    }
-
-
-    .imagem__castelo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
+        width: 80vw;
         box-shadow: 10px 10px 10px 0 #dce8d5;
     }
 

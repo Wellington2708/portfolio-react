@@ -1,17 +1,19 @@
 import Header from './Components/Header/Header.js';
-import AboutMe from './Components/SectionAboutMe/AboutMe.js';
+import AboutMe from './Components/AboutMe/Image.js';
 import Skills from './Components/SectionSkills/Skills.js';
 import Graduation from './Components/SectionGraduation/Graduation.js';
 import Projects from './Components/SectionProjects/Projects.js';
 import Contacts from './Components/SectionContacts/Contacts.js';
-import TextAboutMe from './Components/SectionAboutMe/TextAboutMe.js';
+import TextAboutMe from './Components/AboutMe/TextAboutMe.js';
+import BotaoSobreMim from './Components/ButtonAboutMe/BotaoSobreMim.js';
+
+
 
 function App() {
   return (
-    <body>
+    <body className='body'>
         <Header/>
         <AboutMe/>
-        <TextAboutMe/>
         <Skills/>
         <Graduation/>
         <Projects/>

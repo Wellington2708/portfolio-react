@@ -1,5 +1,6 @@
 :root {
   --font-Chakra400: 'Chakra Petch', sans-serif;
+  --color-white: #FFF;
   --color-black: #020a0a;
   --background: #ADD8E6;
   --borda-itens: #4d54e7;
@@ -21,7 +22,7 @@
   max-width: 100%;
 }
 
-body {
+.body {
   font-family: var(--font-Chakra400);
   background-color: var(--background);
   margin: 0;
@@ -35,6 +36,5 @@ html {
 section {
   height: 100vh;
 }
-
 
 
