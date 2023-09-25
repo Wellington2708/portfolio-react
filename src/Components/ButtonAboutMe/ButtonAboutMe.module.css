@@ -1,0 +1,13 @@
+.botao__quem_sou {
+    color: var(--color-principal);
+    text-transform: uppercase;
+    border-color: var(--borda-itens);
+    border-width: 3px;
+}
+
+.botao__quem_sou:hover {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: var(--borda-itens);
+
+}
