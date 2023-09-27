@@ -3,6 +3,7 @@
     text-transform: uppercase;
     border-color: var(--borda-itens);
     border-width: 3px;
+    background-color: green;
 }
 
 .botao__quem_sou:hover {

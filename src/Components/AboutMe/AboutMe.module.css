@@ -7,18 +7,19 @@ section {
 
 
 
-.apresentacao {
+ .apresentacao {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3em 0 0 0;
+    margin: 3em 0;
 }
 
 .imagem__castelo {
     width: 35vw;
     height: 35vw;
     box-shadow: 10px 10px 10px 0 #0f0f0f;
+    
 }
 
 .imagem__castelo:hover {
