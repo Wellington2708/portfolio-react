@@ -1,14 +1,46 @@
-.botao__quem_sou {
-    color: var(--color-principal);
+#OpenText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #4d54e7;
     text-transform: uppercase;
-    border-color: var(--borda-itens);
-    border-width: 3px;
-    background-color: green;
+    border-color: #4d54e7;
+    border: 3px solid #4d54e7;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #ADD8E6;
+    font-weight: 900;
 }
 
-.botao__quem_sou:hover {
+.btn:hover {
     color: #FFF;
+    background-color: rgb(13, 11, 146);
     border-color: #FFF;
-    background-color: var(--borda-itens);
 
 }
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn_success{
+
+
+}
+
+

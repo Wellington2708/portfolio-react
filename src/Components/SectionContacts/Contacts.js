@@ -1,6 +1,9 @@
+import ContactMe from './Contacts.module.css'
+
+
 function Contacts(){
     return (
-    <section id="contacts" class="contatos">
+    <section id="contacts" class={ContactMe.contatos}>
        
         <h2 class="titulo__contatos">Contatos:</h2>
         <div class="contatos">
