@@ -6,8 +6,9 @@
 
 }
 
+
 .titulo__contatos{
-    color: var(--titulo-imagens);
+    color: var(--borda-itens);
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -15,38 +16,23 @@
 
 }
 
-.list__contatos {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    font-size: 50px;
-    padding: 0 1em;
-    margin: 3% 0;
-    
-}
 
-.navegation__container {
+.list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    gap: 1em;
+
 }
 
 .item__contatos {
     text-decoration: none;
-    align-items: center;
    
 }
 
-.item__contatos:hover {
-    background-color: var(--hover-navegation);
-} 
 
-
-
+.link__github,
 .link__email,
 .link__linkedin ,
-.link__github,
 .link__facebook{
     color: var(--titulo-imagens);
     font-family:'Courier New', Courier, monospace;
@@ -54,14 +40,45 @@
 
 }
 
-
-.fa-envelope {
-    color: rgb(159, 89, 89);
-    margin-right: 10px;
+.lista__contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 50px;
+    padding: 0 3em;
+    margin: 3% 0;
+    
 }
 
-.fa-github,
-.fa-linkedin {
+.item__contatos:hover {
+   background-color: var(--background-navegacao);
+   color: var(--color-white);
+   border-radius: 10px;
+
+}
+
+.link__github {
+    color: #000000;
+    
+}
+
+
+.fa_envelope {
+    color: rgb(230, 26, 26);
+    margin-right: 10px;
+    background-color: rgba(224, 214, 214, 0.82);
+    border: solid 1px;
+    border-color: white;
+
+}
+
+.fa_github {
+    background-color: rgba(224, 214, 214, 0.82);
+
+}
+
+.fa_github,
+.fa_linkedin {
     color:  var(--color-principal);
     margin-right: 10px;
 }
