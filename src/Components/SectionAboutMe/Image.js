@@ -6,7 +6,7 @@ import ButtonAboutMe from '../ButtonAboutMe/ButtonAboutMe.js'
 function AboutMe(){
     return (
             <div id="aboutMe" className={AboutMeCss.apresentacao}>
-                <img src={ImageAboutMe} alt="Eu tirando foto em frente ao castelo" class={AboutMeCss.imagem__castelo}/>
+                <img src={ImageAboutMe} alt="I'm in front the castle." class={AboutMeCss.imagem__castelo}/>
                 <ButtonAboutMe/>
             </div>   
 

@@ -4,8 +4,6 @@ import Skills from './Components/SectionSkills/Skills.js';
 import Graduation from './Components/SectionGraduation/Graduation.js';
 import Projects from './Components/SectionProjects/Projects.js';
 import Contacts from './Components/SectionContacts/Contacts.js';
-import DescricionAboutMe from './Components/SectionAboutMe/TextAboutMe.js';
-import ButtonAboutMe from './Components/ButtonAboutMe/ButtonAboutMe.js';
 
 
 
@@ -14,7 +12,6 @@ function App() {
     <body className='body'>
         <Header/>
         <AboutMe/>
-        <DescricionAboutMe/>
         <Skills/>
         <Graduation/>
         <Projects/>
