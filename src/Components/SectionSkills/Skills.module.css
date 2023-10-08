@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imageCertificate img {
+    width: 1000px;
+    height: 400px;
+    object-fit: contain;
+
+}
