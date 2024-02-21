@@ -1,5 +1,8 @@
 # Wellington Junior's Portfolio
 
+![Captura de Tela 2024-02-21 às 20 11 31](https://github.com/Wellington2708/portfolio-react/assets/110790543/41ee8c21-d065-40a1-9949-632a8272deb7)
+
+
 ## Description
 This is my personal portfolio, built with React JS. The portfolio contains various sections, including a header, a carousel of certificates and projects, and a footer. During the development of this project, several features were implemented.
 
@@ -8,6 +11,12 @@ This is my personal portfolio, built with React JS. The portfolio contains vario
 - Carousel of certificates displaying achievements and course certificates.
 - Section highlighting the most recent or relevant projects, which can be clicked and accessed.
 - Footer with links to social networks and contact information.
+
+![Captura de Tela 2024-02-21 às 20 11 44](https://github.com/Wellington2708/portfolio-react/assets/110790543/a24d5ded-1d6f-468e-905d-9aeb78b2fcbf)
+![Captura de Tela 2024-02-21 às 20 12 16](https://github.com/Wellington2708/portfolio-react/assets/110790543/aabd31d6-aa7b-468a-85cd-56869e405a31)
+![Captura de Tela 2024-02-21 às 20 12 26](https://github.com/Wellington2708/portfolio-react/assets/110790543/21094d3a-8430-4525-b78c-9cbe397ea9ed)
+
+
 
 ## Technologies Used
 - React JS
