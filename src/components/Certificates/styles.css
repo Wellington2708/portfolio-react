@@ -1,0 +1,39 @@
+/* Section skills */
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-blue);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+.container__title {
+    color: var(--dark-blue);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carousel-item .certificate-image {
+    max-width: 55%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 0 var(--soft-white);
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width: 768px){
+
+    .carousel-item .certificate-image{
+        max-width: 75%;
+        margin: 0 auto;
+
+    }
+
+}

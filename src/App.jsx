@@ -1,11 +1,16 @@
-import './App.css'
-import Header from './components/Header'
+import "./App.css";
+import AboutMe from "./components/AboutMe";
+import Certificates from "./components/Certificates";
+import Header from "./components/Header";
 
 function App() {
-  
   return (
-    <Header />
-  )
+    <>
+      <Header />
+      <AboutMe />
+      <Certificates />
+    </>
+  );
 }
 
-export default App
+export default App;
