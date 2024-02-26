@@ -10,7 +10,7 @@ function App() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    fetch("src/components/Certificates/certificates.json")
+    fetch("https://wellington2708.github.io/api-portfolio/certificates.json")
       .then((response) => response.json())
       .then((data) => setDatas(data.certificates));
      
