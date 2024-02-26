@@ -13,6 +13,8 @@ function App() {
     fetch("src/components/Certificates/certificates.json")
       .then((response) => response.json())
       .then((data) => setDatas(data.certificates));
+     
+
   }, []);
 
   const handleNext = () => {

@@ -68,7 +68,7 @@
             "id": 9,
             "title": "React",
             "description": "Developing with Javascript.",
-            "certificate": "src/components/Certificates/assets/react-js.png",
+            "certificate": "https://i.imgur.com/UKnI4Mn.png",
             "alt": "React JS Certificate",
             "category": "React"
   
@@ -77,7 +77,7 @@
             "id": 10,
             "title": "React JSX.",
             "description": "Building components with JSX.",
-            "certificate": "src/components/Certificates/assets/react-jsx.png",
+            "certificate": "https://i.imgur.com/IVH8BWU.png",
             "alt": "React JSX Certificate",
             "category": "React"
   
