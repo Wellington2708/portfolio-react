@@ -16,7 +16,7 @@ export default function Header() {
             <a href="#aboutMe" className='container__list__item'>About Me</a>
           </li>
           <li>
-            <a href="#certificates"  className='container__list__item'>Certificates</a>
+            <a href="#container__certificates"  className='container__list__item'>Certificates</a>
           </li>
           <li>
             <a href="#graduation"  className='container__list__item'>Graduation</a>
