@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Programming Logic",
             "description": "Explore Functions and List",
-            "certificate": "src/components/Certificates/assets/logic-js-1.png",
+            "certificate": "https://i.imgur.com/4673HTX.png",
             "alt": "Programming Logic Certificate",
             "category":"logic"
           },
@@ -12,7 +12,7 @@
             "id": 2,
             "title": "HTML and CSS",
             "description": "Practicing HTML/CSS",
-            "certificate": "src/components/Certificates/assets/html-css.png",
+            "certificate": "https://i.imgur.com/4jCDVez.png",
             "alt": "Practicing HTML/CSS Cestificate",
             "category":"html"
           },
@@ -20,7 +20,7 @@
             "id": 3,
             "title": "CSS",
             "description": "Arranging elements with Flexbox and Grid",
-            "certificate": "src/components/Certificates/assets/flexbox-grid.png",
+            "certificate": "https://i.imgur.com/JtsNMKO.png",
             "alt": "Flexbox and Grid Certificate",
             "category": "css"
           },
@@ -28,7 +28,7 @@
             "id": 4,
             "title": "Git and Github.",
             "description": "Control and share your code.",
-            "certificate": "src/components/Certificates/assets/git-github.png",
+            "certificate": "https://i.imgur.com/wqYPJIG.png",
             "alt": "GIT e Github Certificate",
             "category": "git"
           },
@@ -36,7 +36,7 @@
             "id": 5,
             "title": "Javascript",
             "description": "Programming Object Oriented.",
-            "certificate": "src/components/Certificates/assets/javascript-OO.png",
+            "certificate": "https://i.imgur.com/JKYv0sp.png",
             "alt": "Certificado de Orientação a Objeto em JS",
             "category": "Javascript"
           },
@@ -44,7 +44,7 @@
             "id": 6,
             "title": "Javascript for the Web.",
             "description": "Create Dynamic Pages.",
-            "certificate": "src/components/Certificates/assets/javascript-dinamic.png",
+            "certificate": "https://i.imgur.com/CBX04Xt.png",
             "alt": "Javascript for the Web Certificate",
             "category": "Javascript"
           },
@@ -52,7 +52,7 @@
             "id": 7,
             "title": "Javascript API",
             "description": "Consuming and Handling DATA from an API.",
-            "certificate": "src/components/Certificates/assets/javascript-api.png",
+            "certificate": "https://i.imgur.com/8WvbmYx.png",
             "alt": "Javascript API Certificate",
             "category": "Javascript"
           },
@@ -60,7 +60,7 @@
             "id": 8,
             "title": "Javascript on the Web.",
             "description": "Storing DATA in the Browser.",
-            "certificate": "src/components/Certificates/assets/javascript-local.png",
+            "certificate": "https://i.imgur.com/jWHBWBB.png",
             "alt": "Javascript on the Web Certificate",
             "category": "Javascript"
           },
