@@ -13,8 +13,7 @@
 }
 
 
-
-.container__title {
+.certificate__title {
     color: var(--dark-blue);
     text-align: center;
     text-transform: uppercase;
@@ -25,12 +24,12 @@
     margin: 0 auto;
     box-shadow: 10px 10px 10px 0 var(--soft-white);
     border-radius: 20px;
-    
+
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    .carousel-item .certificate-image{
+    .carousel-item .certificate-image {
         max-width: 75%;
         margin: 0 auto;
 
