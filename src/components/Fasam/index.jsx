@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles.css";
+import styles from "./Fasam.module.css";
 import FasamImage from "./assets/fasam.png";
 
 const FasamCourse = () => {
@@ -18,17 +18,17 @@ const FasamCourse = () => {
 
   return (
     <section id="graduation">
-      <div className="fasam__course">
-        <div className="course__fasam">
-          <h2 className="certificates__title">{fasam.title}</h2>
+      <div className={styles.fasam__course}>
+        <div className={styles.course__fasam}>
+          <h2 className={styles.fasam__title}>{fasam.title}</h2>
           <img
-            className="img-fluid image__fasam"
+            className={`img-fluid ${styles.image__fasam}`}
             src={fasam.image}
             alt={fasam.alt}
           />
         </div>
 
-        <div id="accordionPanelsStayOpenExample" className="accordion">
+        <div id="accordionPanelsStayOpenExample" className={`accordion ${styles.accordion}`}>
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button

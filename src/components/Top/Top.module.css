@@ -1,0 +1,15 @@
+.fixedLink {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000; 
+  }
+  
+  .fixedLink:hover {
+    background-color: #0056b3;
+  }

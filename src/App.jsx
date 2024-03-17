@@ -11,7 +11,7 @@ import Top from "./components/Top";
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <AboutMe />
       <CertificatesCarousel/>
@@ -19,7 +19,7 @@ function App() {
       <ProjectsCarousel/>
       <Contacts/>
       <Top />
-    </>
+    </div>
   );
   
 }

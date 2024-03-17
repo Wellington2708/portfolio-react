@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import "./styles.css"
+import styles from "./Projects.module.css"
 
 const ProjectsCarousel = () => {
   const [projects, setProjects] = useState([]);
@@ -19,16 +19,16 @@ const ProjectsCarousel = () => {
   }, []);
 
   return (
-    <section id="projects" className='projects'>
+    <section id="projects" className={styles.projects}>
       <div>
-        <h2 className="container__title">Projects</h2>
+        <h2 className={styles.container__title}>Projects</h2>
       </div>
       <div className="carousel slide" data-bs-ride="carousel" id="carouselExampleInterval">
         <div className="carousel-inner">
           {projects.map((project, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <a href={project.href} target="_blank" rel="noopener noreferrer">
-                <img className="d-block w-100 projects-image" src={project.src} alt={project.alt} />
+                <img className={`d-block w-100 ${styles.projectsImage}`} src={project.src} alt={project.alt} />
               </a>
             </div>
           ))}

@@ -1,16 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { FaRegEnvelope } from "react-icons/fa6";
-import './styles.css'
+import styles from  './Contacts.module.css'
 
 export default function Contacts() {
   return (
-    <section id="contacts" className='contacts'>
-      <h2 className="title__contacts">Contacts:</h2>
-      <div className="contacts">
-        <div className="list__contacts">
+    <section id="contacts" className={styles.contacts}>
+      <h2 className={styles.title__contacts}>Contacts:</h2>
+      <div className={styles.contacts}>
+        <div className={styles.list__contacts}>
           <a
-            className="item__contacts link-tooltip  link__email"
+            className={`link-tooltip  ${styles.item__contacts} ${styles.link__email}`}
             href="mailto:wellingtondevelopercontact@gmail.com"
             target="_blank"
           
@@ -18,7 +18,7 @@ export default function Contacts() {
          <FaRegEnvelope /> Email
           </a>
           <a
-            className="item__contacts link-tooltip  link__linkedin"
+            className={`link-tooltip  ${styles.item__contacts} ${styles.link__linkedin}`}
             href="https://www.linkedin.com/in/wellington-junior-41513874/"
             target="_blank"
             
@@ -26,7 +26,7 @@ export default function Contacts() {
             <FontAwesomeIcon icon={faLinkedin} /> Linkedin
           </a>
           <a
-            className="item__contacts link-tooltip  link__github"
+            className={`${styles.item__contacts} link-tooltip  ${styles.link__github}`}
             href="https://github.com/Wellington2708"
             target="_blank"
             
@@ -34,7 +34,7 @@ export default function Contacts() {
             <FontAwesomeIcon icon={faGithub} /> Github
           </a>
           <a
-            className="item__contacts link-tooltip link__facebook"
+            className={`${styles.item__contacts} link-tooltip ${styles.link__facebook}`}
             href="https://www.facebook.com/WellingtonJunior2708"
             target="_blank"
             

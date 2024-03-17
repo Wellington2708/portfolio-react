@@ -20,7 +20,7 @@
 
 
 
-.carousel-item .projects-image {
+.projectsImage {
     max-width: 55%;
     margin: 0 auto;
     border-radius: 20px;
@@ -39,8 +39,14 @@ mouseover */
     margin-left: 7%;
 }
 
-.carousel-item .projects-image{
-    max-width: 75%;
+.projectsImage{
+    max-width: 55%;
     margin: 0 auto;
+
+}
+
+.projectsImage:hover{
+    opacity: 0.6;
+    box-shadow: 10px 10px 10px 0 var(--light-gray);
 
 }

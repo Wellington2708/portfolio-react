@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--dark-black);
     padding: 0.3em;
     font-family:'Courier New', Courier, monospace;
     font-size: 44px;
@@ -53,6 +52,10 @@
     
 } 
 
+.link__email {
+    color: var(--absolute-black);
+}
+
 
 [stroke="currentColor"] {
     color: var(--red);
@@ -60,15 +63,35 @@
 
 }
 
+
+.link__linkedin{
+    gap: 10px;
+}
+
+
 .fa-linkedin{
-    margin-right: 10px;
     color: var(--medium-blue);
 
 }
 
+.link__github{
+    gap: 10px;
+    color: var(--absolute-black);
+}
+
+[data-icon="github"] {
+    color: black;
+}
+
+
 .fa-github {
     color:  var(--absolute-black);
     margin-right: 10px;
+}
+
+.link__facebook{
+    gap: 10px;
+   
 }
 
 .fa-facebook {

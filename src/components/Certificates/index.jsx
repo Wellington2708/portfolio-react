@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './styles.css'
+import styles from  './Certificates.module.css'
 
 const CertificatesCarousel = () => {
   const [certificatesData, setCertificatesData] = useState([]);
@@ -19,15 +19,15 @@ const CertificatesCarousel = () => {
   }, []);
 
   return (
-    <section id="container__certificates" className='certificates skills'>
+    <section id="container__certificates" className={`${styles.certificates} ${styles.skills}`}>
       <div >
-        <h2 className="container__title">Course Certificates</h2>
+        <h2 className={styles.container__title}>Course Certificates</h2>
       </div>
       <div className="carousel slide" data-bs-ride="carousel" id="carouselExampleAutoplaying">
-        <div className="carousel-inner">
+        <div className='carousel-inner'>
           {certificatesData.map((certificate, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <img className="d-block w-100 certificate-image" src={certificate.certificate} alt={certificate.alt} />
+              <img className={`d-block w-100 ${styles.certificateImage}`} src={certificate.certificate} alt={certificate.alt} />
             </div>
           ))}
         </div>
