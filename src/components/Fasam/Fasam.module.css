@@ -17,7 +17,12 @@
     align-items: center;
 }
 
+.accordionPanelsStayOpenExample {
+    max-width: 100%;
+}
+
 .fasam__title {
+    text-align: center;
     color: var(--dark-blue);
     text-transform: uppercase;
 }
@@ -55,4 +60,26 @@
     .image__fasam {
         width: 75%;
     }
+
+    #accordionPanelsStayOpenExample {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accordion {
+
+        width: 100%;
+    }
+
+    .fasam__course {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        max-width: 100vw;
+    
+    }
+    
 }

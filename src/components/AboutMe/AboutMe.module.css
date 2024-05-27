@@ -59,3 +59,10 @@
     background-color: var(--light-blue);
 
 }
+
+@media (max-width: 768px) {
+    .presentation__image .image__castle{
+        width: 100%;
+    }
+
+}
