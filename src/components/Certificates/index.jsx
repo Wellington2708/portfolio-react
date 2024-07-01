@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from  './Certificates.module.css'
 
-const CertificatesCarousel = () => {
+function CertificatesCarousel(){
   const [certificatesData, setCertificatesData] = useState([]);
 
   useEffect(() => {
@@ -17,6 +17,9 @@ const CertificatesCarousel = () => {
 
     fetchData();
   }, []);
+
+
+  
 
   return (
     <section id="container__certificates" className={`${styles.certificates} ${styles.skills}`}>

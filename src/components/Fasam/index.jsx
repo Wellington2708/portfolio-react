@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./Fasam.module.css";
 import FasamImage from "./assets/fasam.png";
 
-const FasamCourse = () => {
+function FasamCourse(){
   const [isOpen, setIsOpen] = useState(false);
 
   const fasam = {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from "./Projects.module.css"
 
-const ProjectsCarousel = () => {
+function ProjectsCarousel(){
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {

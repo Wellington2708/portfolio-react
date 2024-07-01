@@ -1,6 +1,6 @@
 import styles from './Top.module.css'
 
-export default function Top(){
+function Top(){
     return(
        <div>
       {/* Link to top page */}
@@ -8,4 +8,6 @@ export default function Top(){
     </div>
         )
 }
+
+export default Top;
  

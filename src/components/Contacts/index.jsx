@@ -3,7 +3,7 @@ import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-i
 import { FaRegEnvelope } from "react-icons/fa6";
 import styles from  './Contacts.module.css'
 
-export default function Contacts() {
+function Contacts() {
   return (
     <section id="contacts" className={styles.contacts}>
       <h2 className={styles.title__contacts}>Contacts:</h2>
@@ -19,7 +19,7 @@ export default function Contacts() {
           </a>
           <a
             className={`link-tooltip  ${styles.item__contacts} ${styles.link__linkedin}`}
-            href="https://www.linkedin.com/in/wellington-junior-41513874/"
+            href="https://www.linkedin.com/in/wellington-luis-41513874/"
             target="_blank"
             
           >
@@ -46,3 +46,5 @@ export default function Contacts() {
     </section>
   );
 }
+
+export default Contacts;
