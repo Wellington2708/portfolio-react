@@ -28,7 +28,7 @@ function ProjectsCarousel(){
           {projects.map((project, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <a href={project.href} target="_blank" rel="noopener noreferrer">
-                <img className={`d-block w-100 ${styles.projectsImage}`} src={project.src} alt={project.alt} />
+                <img className={`d-block w-100 ${styles.projects__image}`} src={project.src} alt={project.alt} />
               </a>
             </div>
           ))}

@@ -5,25 +5,23 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import AboutMe from './components/AboutMe';
 import Certificates from './components/Certificates';
-import FasamCourse from './components/Fasam';
+import Graduation from './components/Graduation';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import App from './App';
-import Home from './components/Home/index';
 
 const router = createBrowserRouter([
   { path: '/', 
-    element:  <>
-                <App/>
-                {/* <Home/> */}
-              </>,
+    element:  <App/>,
     children: [
-      { path: 'aboutme', 
+      { path: '/', 
         element: <AboutMe/> },
+      { path: 'aboutme', 
+          element: <AboutMe/> },
       { path: 'certificates', 
         element: <Certificates/> },
       { path: 'graduation', 
-        element: <FasamCourse/> },
+        element: <Graduation/> },
       { path: 'projects', 
         element: <Projects/> },
       { path: 'contacts',
@@ -31,7 +29,7 @@ const router = createBrowserRouter([
       ]
    }
   ]
-)
+);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -39,3 +37,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <RouterProvider router={router}/>
   </React.StrictMode>,
 )
+
+

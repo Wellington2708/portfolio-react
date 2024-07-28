@@ -7,7 +7,7 @@ function Contacts() {
   return (
     <section id="contacts" className={styles.contacts}>
       <h2 className={styles.title__contacts}>Contacts:</h2>
-      <div className={styles.contacts}>
+      <div>
         <div className={styles.list__contacts}>
           <a
             className={`link-tooltip  ${styles.item__contacts} ${styles.link__email}`}

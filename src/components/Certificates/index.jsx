@@ -23,9 +23,7 @@ function CertificatesCarousel(){
 
   return (
     <section id="container__certificates" className={`${styles.certificates} ${styles.skills}`}>
-      <div >
         <h2 className={styles.container__title}>Course Certificates</h2>
-      </div>
       <div className="carousel slide" data-bs-ride="carousel" id="carouselExampleAutoplaying">
         <div className='carousel-inner'>
           {certificatesData.map((certificate, index) => (

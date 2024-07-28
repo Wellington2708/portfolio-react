@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Fasam.module.css";
+import styles from "./Graduation.module.css";
 import FasamImage from "./assets/fasam.png";
 
 function FasamCourse(){
