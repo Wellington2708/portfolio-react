@@ -9,6 +9,9 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    margin-top: 5%;
+    height: 62vh;
+    
 
 }
 
@@ -16,11 +19,12 @@
     color: var(--dark-blue);
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 14%;
 }
 
 
 
-.₢ {
+.projects__image {
     max-width: 55%;
     margin: 0 auto;
     border-radius: 20px;
@@ -37,17 +41,7 @@
     margin-left: 7%;
 }
 
-.projectsImage{
-    max-width: 55%;
-    margin: 0 auto;
-
-}
-
-/* This project description will be inserted later by the
-mouseover */
-
-
-.projectsImage:hover{
+.projects__image:hover{
     opacity: 0.7;
     box-shadow: 10px 10px 10px 0 var(--light-gray);
 

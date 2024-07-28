@@ -25,7 +25,9 @@
 
 body {
   font-family: var(--font-Chakra400);
-  background-color: var(--background);
+  background-color: var(--light-gray);
+  width: 100vw;
+
 }
 
 html {
@@ -33,8 +35,8 @@ html {
 }
 
 
-section {
+/* section {
   width: 100%;
   height: 100vh;
-}
+} */
 

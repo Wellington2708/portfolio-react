@@ -7,9 +7,10 @@
 }
 
 .container__header img {
-    width: 170px;
+    width: 270px;
     margin-bottom: 10px;
 }
+
 
 .container__header .date {
     font-family: var(--font-Chakra400);
