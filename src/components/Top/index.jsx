@@ -2,7 +2,7 @@ import styles from './Top.module.css'
 
 function Top(){
     return(
-       <div>
+       <div className={styles.display}>
       {/* Link to top page */}
       <a href="#" className={styles.fixedLink}>Top</a>
     </div>

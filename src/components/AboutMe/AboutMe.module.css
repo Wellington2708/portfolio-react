@@ -59,10 +59,27 @@
 
 }
 
-@media (max-width: 768px) {
-    .presentation__image .image__castle{
-        width: 100%;
+@media screen and (max-width: 1007px) {
+    .presentation__image .image__castle {
+       width: 70%;
+       margin-top: 10%;
     }
+
+
+    .top {
+        display: none;
+    }
+   
+   }
+    
+
+@media (max-width: 768px) {
+
+    .presentation__image .image__castle{
+        width: 90%;
+        margin-top: 0;
+    }
+
 
 } 
 

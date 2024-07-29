@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.container__header img {
+.container__logo {
     width: 270px;
     margin-bottom: 10px;
 }
@@ -15,7 +15,6 @@
 .container__header .date {
     font-family: var(--font-Chakra400);
     background-color: var(--light-blue);
-    margin: 1em;
     padding: 0.5em;
     color: var(--white);
     border: none;
@@ -38,8 +37,12 @@
     margin: 0;
     list-style-type: none;
 
+}
 
-
+.container__header .menu__icon {
+    display: none;
+    height: 30px;
+    cursor: pointer;
 }
 
 
@@ -61,36 +64,74 @@
 
 }
 
-@media screen and (max-width: 850px) {
-    .container__header {
+@media screen and (max-width: 1007px) {
+.container__logo{
+    width: 250px;
+}
+
+    .container__navegation {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        text-align: center;
+    }
+
+    .container__navegation.open {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1em;
+
 
     }
 
-    .container__header img {
+    .container__navegation.open .container__list {
+        gap: 10px;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .container__header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .container__header .container__logo {
         width: 200px;
         margin-bottom: 0;
     }
 
-    .container__header .date {
-        margin-top: 0;
+
+    .container__header .menu__icon {
+        display: block;
+        height: 4em;
     }
 
 }
 
-.container__list {
-    display: flex;
-    
-}
 
-@media screen and (max-width: 750px) {
-    .container__list {
+@media screen and (max-width: 768px) {
+    .container__header {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-
     }
+
+    .container__navegation.open .container__list {
+        flex-direction: column;
+    }
+
+    .container__navegation.open {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .container__header .menu__icon {
+        height: 3em;
+        margin-top: 10px;
+    }
+
 }

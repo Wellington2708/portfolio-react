@@ -46,3 +46,34 @@
     box-shadow: 10px 10px 10px 0 var(--light-gray);
 
 }
+
+
+/*  mobile */
+
+
+@media screen and (max-width: 1007px) {
+
+.projects {
+    margin-top: 15%;
+}
+
+ .projects__image {
+    max-width: 82%;
+ }
+
+}
+ 
+
+
+@media screen and (max-width: 768px) {
+    .projects {
+        margin-top: 0;
+    }
+
+    .projects__image {
+        max-width: 90%;
+        margin-top: 0;
+    }
+
+
+}

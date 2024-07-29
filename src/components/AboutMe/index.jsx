@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import styles from './AboutMe.module.css'
-import Castle from './assets/castle.png'
+import styles from './AboutMe.module.css';
+import Castle from './assets/castle.png';
+import Top from  '../Top';
+
 
 
 function AboutMe() {
@@ -12,6 +14,7 @@ function AboutMe() {
   };
 
   return (
+    <>
     <section id="aboutMe" className={styles.presentation}>
       <div className={styles.presentation__image}>
         <img src={Castle} alt="Wellington taking a photo in front of the castle" className={styles.image__castle} />
@@ -31,6 +34,10 @@ function AboutMe() {
         </div>
       )}
     </section>
+    <div className={styles.top}>
+    <Top />
+    </div>
+    </>
   );
 }
 

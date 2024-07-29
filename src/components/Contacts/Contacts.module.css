@@ -7,7 +7,7 @@
 
 }
 
-.title__contacts{
+.title__contacts {
     color: var(--dark-blue);
     text-align: center;
     text-transform: uppercase;
@@ -21,7 +21,7 @@
     gap: 30px;
     margin-top: 2em;
 
-    
+
 }
 
 
@@ -39,7 +39,7 @@
     align-items: center;
     text-decoration: none;
     padding: 0.3em;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 44px;
 
 
@@ -50,8 +50,8 @@
     border-radius: 10px;
     background-color: var(--white);
 
-    
-} 
+
+}
 
 .link__email {
     color: var(--absolute-black);
@@ -65,17 +65,17 @@
 }
 
 
-.link__linkedin{
+.link__linkedin {
     gap: 10px;
 }
 
 
-.fa-linkedin{
+.fa-linkedin {
     color: var(--medium-blue);
 
 }
 
-.link__github{
+.link__github {
     gap: 10px;
     color: var(--absolute-black);
 }
@@ -86,13 +86,13 @@
 
 
 .fa-github {
-    color:  var(--absolute-black);
+    color: var(--absolute-black);
     margin-right: 10px;
 }
 
-.link__facebook{
+.link__facebook {
     gap: 10px;
-   
+
 }
 
 .fa-facebook {
@@ -130,18 +130,30 @@
 }
 
 
+@media screen and (max-width: 1007px) {
 
-@media (max-width: 768px) {
-    .container {
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    
-    .container__list {
-      flex-direction: column;
+    .contacts {
+        height: 70vh;
     }
 
-    .item__contacts {
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        margin-top: 0;
+        height: 62vh;
+    }
+
+    .title__contacts {
+        font-size: 1.5em;
+    }
+
+
+    .list__contacts {
         font-size: 25px;
     }
-  }
+
+
+}
